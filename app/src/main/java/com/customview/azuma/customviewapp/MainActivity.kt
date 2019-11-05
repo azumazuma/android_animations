@@ -3,7 +3,10 @@ package com.customview.azuma.customviewapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
+import android.view.animation.Animation
 import com.azuma.androidcustomview.ScaleButton
+import com.azuma.androidcustomview.animation.Bound
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,8 +14,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<ScaleButton>(R.id.scale_button).setOnClickListener {
-            Log.d("click", "scale_button")
+        // https://github.com/gayanvoice/android-view-animations-daimajia-kotlin
+        val box = findViewById<View>(R.id.box)
+        box.setOnClickListener {
+            Bound().upBottom(box).start()
         }
     }
 }
