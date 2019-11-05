@@ -1,4 +1,4 @@
-package com.customview.azuma.customview
+package com.azuma.androidcustomview
 
 import org.junit.Test
 
