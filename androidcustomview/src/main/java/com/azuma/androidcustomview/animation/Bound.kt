@@ -3,71 +3,47 @@ package com.azuma.androidcustomview.animation
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
 import android.view.View
+import com.azuma.androidcustomview.util.AnimSet
 
 class Bound {
+    fun inSideCenter(view: View, duration: Long = 1000): AnimatorSet {
+        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "scaleX", 0.3f, 1.05f, 0.9f, 1f)
+        val o2: ObjectAnimator = ObjectAnimator.ofFloat(view, "scaleY", 0.3f, 1.05f, 0.9f, 1f)
+        val o3: ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
 
-    fun fadeCenter(view: View, duration: Long = 1000): AnimatorSet {
-        val anim = AnimatorSet()
-
-        val object1: ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
-        val object2: ObjectAnimator = ObjectAnimator.ofFloat(view, "scaleX", 0.3f, 1.05f, 0.9f, 1f)
-        val object3: ObjectAnimator = ObjectAnimator.ofFloat(view, "scaleY", 0.3f, 1.05f, 0.9f, 1f)
-
-        anim.playTogether(object1, object2, object3)
-        anim.duration = duration
-        anim.setTarget(view)
-        return anim
+        return AnimSet.set(view, duration, o1, o2, o3)
     }
 
-    fun downTop(view: View, duration: Long = 1000): AnimatorSet {
-        val anim = AnimatorSet()
-        val o1 = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
+    fun inSideTop(view: View, duration: Long = 1000): AnimatorSet {
         val height = -view.height
-        val o2 = ObjectAnimator.ofFloat(view, "translationY", height.toFloat() - 30f, 10f, 0f)
+        val o1 = ObjectAnimator.ofFloat(view, "translationY", height.toFloat() - 30f, 10f, 0f)
+        val o2 = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
 
-        anim.playTogether(o1, o2)
-        anim.duration = duration
-        anim.setTarget(view)
-        return anim
+        return AnimSet.set(view, duration, o1, o2)
     }
 
-    fun upBottom(view: View, duration: Long = 1000): AnimatorSet {
-        val anim = AnimatorSet()
-
-        val o1 = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
+    fun inSideBottom(view: View, duration: Long = 1000): AnimatorSet {
         val height = view.height
-        val o2 = ObjectAnimator.ofFloat(view, "translationY", height.toFloat(), 30f, -10f, 0f)
+        val o1 = ObjectAnimator.ofFloat(view, "translationY", height.toFloat(), 30f, -10f, 0f)
+        val o2 = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
 
-        anim.playTogether(o1, o2)
-        anim.duration = duration
-        anim.setTarget(view)
-        return anim
+        return AnimSet.set(view, duration, o1, o2)
     }
 
-    fun slideRight(view: View, duration: Long = 1000): AnimatorSet {
-        val anim = AnimatorSet()
-
-        val o1 = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
+    fun inSideRight(view: View, duration: Long = 1000): AnimatorSet {
         val width = -view.width.toFloat()
         val measureWidth = -view.measuredWidth.toFloat()
-        val o2 = ObjectAnimator.ofFloat(view, "translationX", width + measureWidth, -30f, 10f, 0f)
+        val o1 = ObjectAnimator.ofFloat(view, "translationX", width + measureWidth, -30f, 10f, 0f)
+        val o2= ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
 
-        anim.playTogether(o1, o2)
-        anim.duration = duration
-        anim.setTarget(view)
-        return anim
+        return AnimSet.set(view, duration, o1, o2)
     }
 
-    fun slideLeft(view: View, duration: Long = 1000): AnimatorSet {
-        val anim = AnimatorSet()
-
-        val o1 = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
+    fun inSideLeft(view: View, duration: Long = 1000): AnimatorSet {
         val width = -view.width
-        val o2 = ObjectAnimator.ofFloat(view, "translationX", width.toFloat(), 30f, -10f, 0f)
+        val o1 = ObjectAnimator.ofFloat(view, "translationX", width.toFloat(), 30f, -10f, 0f)
+        val o2 = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
 
-        anim.playTogether(o1, o2)
-        anim.duration = duration
-        anim.setTarget(view)
-        return anim
+        return AnimSet.set(view, duration, o1, o2)
     }
 }

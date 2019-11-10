@@ -2,11 +2,8 @@ package com.customview.azuma.customviewapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
-import android.view.animation.Animation
-import com.azuma.androidcustomview.ScaleButton
-import com.azuma.androidcustomview.animation.Bound
+import com.azuma.androidcustomview.animation.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         // https://github.com/gayanvoice/android-view-animations-daimajia-kotlin
         val box = findViewById<View>(R.id.box)
         box.setOnClickListener {
-            Bound().fadeCenter(box).start()
+            Zoom().outSideBottom(box).start()
         }
     }
 }
