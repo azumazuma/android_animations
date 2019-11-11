@@ -8,8 +8,8 @@ import com.azuma.androidcustomview.util.AnimSet
 
 class Slip {
     fun inSideTop(view: View, duration: Long = 1000): AnimatorSet {
-        val distance = (view.top + view.height).toFloat()
-        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", -distance, 0f)
+        val range = (view.top + view.height).toFloat()
+        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", -range, 0f)
         val o2: ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f)
 
         return AnimSet.set(view, duration, o1, o2)
@@ -17,8 +17,8 @@ class Slip {
 
     fun outSideTop(view: View, duration: Long = 1000): AnimatorSet {
         val parent = view.parent as ViewGroup
-        val distance = (parent.height - view.top).toFloat()
-        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", 0f, distance)
+        val range = (parent.height - view.top).toFloat()
+        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", 0f, range)
         val o2: ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 1f, 0f)
 
         return AnimSet.set(view, duration, o1, o2)
@@ -26,8 +26,8 @@ class Slip {
 
     fun inSideBottom(view: View, duration: Long = 1000): AnimatorSet {
         val parent = view.parent as ViewGroup
-        val distance = (parent.height - view.top).toFloat()
-        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", distance, 0f)
+        val range = (parent.height - view.top).toFloat()
+        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", range, 0f)
         val o2: ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f)
 
         return AnimSet.set(view, duration, o1, o2)
@@ -43,9 +43,9 @@ class Slip {
 
     fun inSideRight(view: View, duration: Long = 1000): AnimatorSet {
         val parent = view.parent as ViewGroup
-        val distance = (parent.width - view.left).toFloat()
+        val range = (parent.width - view.left).toFloat()
 
-        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationX", -distance, 0f)
+        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationX", -range, 0f)
         val o2: ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f)
 
         return AnimSet.set(view, duration, o1, o2)
@@ -61,8 +61,8 @@ class Slip {
 
     fun inSideLeft(view: View, duration: Long = 1000): AnimatorSet {
         val parent = view.parent as ViewGroup
-        val distance = (parent.width - view.left).toFloat()
-        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationX", distance, 0f)
+        val range = (parent.width - view.left).toFloat()
+        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationX", range, 0f)
         val o2: ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f)
 
         return AnimSet.set(view, duration, o1, o2)
@@ -70,8 +70,8 @@ class Slip {
 
     fun outSideLeft(view: View, duration: Long = 1000): AnimatorSet {
         val parent = view.parent as ViewGroup
-        val distance = (parent.width - view.left).toFloat()
-        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationX", 0f, distance)
+        val range = (parent.width - view.left).toFloat()
+        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationX", 0f, range)
         val o2: ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 1f, 0f)
 
         return AnimSet.set(view, duration, o1, o2)

@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         // https://github.com/gayanvoice/android-view-animations-daimajia-kotlin
         val box = findViewById<View>(R.id.box)
         box.setOnClickListener {
-            Zoom().outSideBottom(box).start()
+            Snap().inSideY(box).start()
         }
     }
 }
