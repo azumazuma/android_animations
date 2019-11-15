@@ -78,7 +78,7 @@ class Turn {
 
         return AnimSet.set(view, duration, o1, o2, o3, o4)
     }
-//
+
     fun inSideAxisBottomLeft(view: View, duration: Long = 1000): AnimatorSet {
         val x = view.paddingLeft.toFloat()
         val y = (view.height - view.paddingBottom).toFloat()
