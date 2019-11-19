@@ -5,6 +5,7 @@ import android.view.View
 
 class Door {
     fun topOpen(view: View, duration: Long = 1000): AnimatorSet {
+
         return AnimatorSet()
     }
 

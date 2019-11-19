@@ -7,10 +7,13 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <View
+    <TextView
             android:id="@+id/box"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:text="View"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
             android:background="@color/colorPrimary"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
