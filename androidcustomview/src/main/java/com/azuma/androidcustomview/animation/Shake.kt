@@ -12,8 +12,9 @@ class Shake {
 
         val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationX", 0f * power, -25f * power, 20f * power, -15f * power, 10f * power, -5f * power, 0f * power, 0f)
         val o2: ObjectAnimator = ObjectAnimator.ofFloat(view, "rotation", 0f, -5f, 3f, -3f, 2f, -1f, 0f)
+        val o3: ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha",  1f, 1f)
 
-        return AnimSet.set(view, duration, o1, o2)
+        return AnimSet.set(view, duration, o1, o2, o3)
     }
 
     fun medium(view: View, duration: Long = 1000): AnimatorSet {
@@ -22,8 +23,9 @@ class Shake {
 
         val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationX", 0f * power, -25f * power, 20f * power, -15f * power, 10f * power, -5f * power, 0f * power, 0f)
         val o2: ObjectAnimator = ObjectAnimator.ofFloat(view, "rotation", 0f, -5f, 3f, -3f, 2f, -1f, 0f)
+        val o3: ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha",  1f, 1f)
 
-        return AnimSet.set(view, duration, o1, o2)
+        return AnimSet.set(view, duration, o1, o2, o3)
     }
 
     fun strength(view: View, duration: Long = 1000): AnimatorSet {
@@ -32,7 +34,8 @@ class Shake {
 
         val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationX", 0f * power, -25f * power, 20f * power, -15f * power, 10f * power, -5f * power, 0f * power, 0f)
         val o2: ObjectAnimator = ObjectAnimator.ofFloat(view, "rotation", 0f, -5f, 3f, -3f, 2f, -1f, 0f)
+        val o3: ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha",  1f, 1f)
 
-        return AnimSet.set(view, duration, o1, o2)
+        return AnimSet.set(view, duration, o1, o2, o3)
     }
 }

@@ -15,36 +15,40 @@ class Bound {
     }
 
     fun inSideTop(view: View, duration: Long = 1000): AnimatorSet {
-        val height = -view.height
-        val o1 = ObjectAnimator.ofFloat(view, "translationY", height.toFloat(), 0f, -70f, 0f, -50f, 0f, -10f, 0f)
+        val height = -view.height.toFloat()
+
+        val o1 = ObjectAnimator.ofFloat(view, "translationY", height, 0f, -70f, 0f, -50f, 0f, -10f, 0f)
         val o2 = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
 
         return AnimSet.set(view, duration, o1, o2)
     }
 
     fun inSideTopLeft(view: View, duration: Long = 1000): AnimatorSet {
-        val height = -view.height
-        val width = -view.width
-        val o1 = ObjectAnimator.ofFloat(view, "translationX", width.toFloat(), 0f)
-        val o2 = ObjectAnimator.ofFloat(view, "translationY", height.toFloat(), 0f, -70f, 0f, -50f, 0f, -10f, 0f)
+        val height = -view.height.toFloat()
+        val width = -view.width.toFloat()
+
+        val o1 = ObjectAnimator.ofFloat(view, "translationX", width, 0f)
+        val o2 = ObjectAnimator.ofFloat(view, "translationY", height, height, 0f, -70f, 0f, -50f, 0f, -10f, 0f)
         val o3 = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
 
         return AnimSet.set(view, duration, o1, o2, o3)
     }
 
     fun inSideTopRight(view: View, duration: Long = 1000): AnimatorSet {
-        val height = -view.height
-        val width = view.width
-        val o1 = ObjectAnimator.ofFloat(view, "translationX", width.toFloat(), 0f)
-        val o2 = ObjectAnimator.ofFloat(view, "translationY", height.toFloat(), 0f, -70f, 0f, -50f, 0f, -10f, 0f)
+        val height = -view.height.toFloat()
+        val width = view.width.toFloat()
+
+        val o1 = ObjectAnimator.ofFloat(view, "translationX", width, 0f)
+        val o2 = ObjectAnimator.ofFloat(view, "translationY", height, height, 0f, -70f, 0f, -50f, 0f, -10f, 0f)
         val o3 = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
 
         return AnimSet.set(view, duration, o1, o2, o3)
     }
 
     fun inSideBottom(view: View, duration: Long = 1000): AnimatorSet {
-        val height = view.height
-        val o1 = ObjectAnimator.ofFloat(view, "translationY", height.toFloat(), 0f, -70f, 0f, -50f, 0f, -10f, 0f)
+        val height = view.height.toFloat()
+
+        val o1 = ObjectAnimator.ofFloat(view, "translationY", height, 0f, -70f, 0f, -50f, 0f, -10f, 0f)
         val o2 = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
 
         return AnimSet.set(view, duration, o1, o2)
@@ -52,6 +56,7 @@ class Bound {
 
     fun inSideRight(view: View, duration: Long = 1000): AnimatorSet {
         val width = view.width.toFloat()
+
         val o1 = ObjectAnimator.ofFloat(view, "translationX", width, 0f, -70f, 0f, -50f, 0f, -10f, 0f)
         val o2= ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
 
@@ -59,8 +64,9 @@ class Bound {
     }
 
     fun inSideLeft(view: View, duration: Long = 1000): AnimatorSet {
-        val width = -view.width
-        val o1 = ObjectAnimator.ofFloat(view, "translationX", width.toFloat(), 0f, -70f, 0f, -50f, 0f, -10f, 0f)
+        val width = -view.width.toFloat()
+
+        val o1 = ObjectAnimator.ofFloat(view, "translationX", width, 0f, -70f, 0f, -50f, 0f, -10f, 0f)
         val o2 = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f, 1f, 1f)
 
         return AnimSet.set(view, duration, o1, o2)
