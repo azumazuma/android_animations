@@ -1,1 +1,1 @@
-include ':app', ':androidcustomview'
+include ':app', ':android_animation'

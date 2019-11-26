@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
-import com.azuma.androidcustomview.animation.*
+import com.azuma.android_animation.animation.*
 import com.customview.azuma.customviewapp.databinding.ListCellBinding
 
 class CustomListView(private val context: Context,private val targetView: View) : BaseAdapter() {

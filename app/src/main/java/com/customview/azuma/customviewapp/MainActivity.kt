@@ -2,10 +2,8 @@ package com.customview.azuma.customviewapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.ImageView
 import android.widget.ListView
-import com.azuma.androidcustomview.animation.*
 
 class MainActivity : AppCompatActivity() {
 
