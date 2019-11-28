@@ -56,6 +56,114 @@ dependencies {
 ## Sample
 
 
+## Animation List
+
+### Bound
+|method name|used gif|
+|---|---|
+|inSideCenter|gif|
+|inSideTop|gif|
+|inSideTopLeft|gif|
+|inSideTopRight|gif|
+|inSideBottom|gif|
+|inSideLeft|gif|
+|inSideRight|gif|
+
+### Door
+|method name|used gif|
+|---|---|
+|topOpen|gif|
+|topClose|gif|
+|bottomOpen|gif|
+|bottomClose|gif|
+|leftOpen|gif|
+|leftClose|gif|
+|rightOpen|gif|
+|rightClose|gif|
+
+### Extend
+|method name|used gif|
+|---|---|
+|widthSmall|gif|
+|widthBig|gif|
+|heightSmall|gif|
+|heightBig|gif|
+|small|gif|
+|big|gif|
+
+### Flash
+|method name|used gif|
+|---|---|
+|week|gif|
+|medium|gif|
+|strength|gif|
+
+### Roll
+|method name|used gif|
+|---|---|
+|inSideTop|gif|
+|outSideTop|gif|
+|inSideBottom|gif|
+|outSideBottom|gif|
+|inSideLeft|gif|
+|outSideLeft|gif|
+|inSideRight|gif|
+|outSideRight|gif|
+
+### Shake
+|method name|used gif|
+|---|---|
+|week|gif|
+|medium|gif|
+|strength|gif|
+
+### Slip
+|method name|used gif|
+|---|---|
+|inSideTop|gif|
+|outSideTop|gif|
+|inSideBottom|gif|
+|outSideBottom|gif|
+|inSideLeft|gif|
+|outSideLeft|gif|
+|inSideRight|gif|
+|outSideRight|gif|
+
+### Snap
+|method name|used gif|
+|---|---|
+|inSideX|gif|
+|outSideX|gif|
+|inSideY|gif|
+|outSideY|gif|
+
+### Turn
+|method name|used gif|
+|---|---|
+|inSide|gif|
+|outSide|gif|
+|inSideAxisTopLeft|gif|
+|outSideAxisTopLeft|gif|
+|inSideAxisTopRight|gif|
+|outSideAxisTopRight|gif|
+|inSideAxisBottomLeft|gif|
+|outSideAxisBottomLeft|gif|
+|inSideAxisBottomRight|gif|
+|outSideAxisBottomRight|gif|
+
+### Zoom
+|method name|used gif|
+|---|---|
+|inSide|gif|
+|outSide|gif|
+|inSideTop|gif|
+|outSideTop|gif|
+|inSideBottom|gif|
+|outSideBottom|gif|
+|inSideLeft|gif|
+|outSideLeft|gif|
+|inSideRight|gif|
+|outSideRight|gif|
 
 License
 -------
