@@ -11,10 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        val box = findViewById<View>(R.id.box)
-//        box.setOnClickListener {
-//            Door().rightClose(box).start()
-//        }
         val image = findViewById<ImageView>(R.id.image)
         val listView = findViewById<ListView>(R.id.listView)
         listView.adapter = CustomListView(applicationContext, image)

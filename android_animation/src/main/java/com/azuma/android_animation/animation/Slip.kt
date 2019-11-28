@@ -17,10 +17,9 @@ class Slip {
     }
 
     fun outSideTop(view: View, duration: Long = 1000): AnimatorSet {
-        val parent = view.parent as ViewGroup
-        val range = (parent.height - view.top).toFloat()
+        val bottom = -view.bottom.toFloat()
 
-        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", 0f, range)
+        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", 0f, bottom)
         val o2: ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 1f, 0f)
         val o3: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", 0f, 0f)
 
@@ -39,9 +38,10 @@ class Slip {
     }
 
     fun outSideBottom(view: View, duration: Long = 1000): AnimatorSet {
-        val bottom = -view.bottom.toFloat()
+        val parent = view.parent as ViewGroup
+        val range = (parent.height - view.top).toFloat()
 
-        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", 0f, bottom)
+        val o1: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", 0f, range)
         val o2: ObjectAnimator = ObjectAnimator.ofFloat(view, "alpha", 1f, 0f)
         val o3: ObjectAnimator = ObjectAnimator.ofFloat(view, "translationY", 0f, 0f)
 
