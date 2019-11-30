@@ -61,109 +61,109 @@ dependencies {
 ### Bound
 |method name|used gif|
 |---|---|
-|inSideCenter|gif|
-|inSideTop|gif|
-|inSideTopLeft|gif|
-|inSideTopRight|gif|
-|inSideBottom|gif|
-|inSideLeft|gif|
-|inSideRight|gif|
+|inSideCenter|![result](https://github.com/azumazuma/android_animation/blob/master/images/Bound_inSideCenter.gif)|
+|inSideTop|![result](https://github.com/azumazuma/android_animation/blob/master/images/Bound_inSideTop.gif)|
+|inSideTopLeft|![result](https://github.com/azumazuma/android_animation/blob/master/images/Bound_inSideTopLeft.gif)|
+|inSideTopRight|![result](https://github.com/azumazuma/android_animation/blob/master/images/Bound_inSideTopRight.gif)|
+|inSideBottom|![result](https://github.com/azumazuma/android_animation/blob/master/images/Bound_inSideBottom.gif)|
+|inSideLeft|![result](https://github.com/azumazuma/android_animation/blob/master/images/Bound_inSideLeft.gif)|
+|inSideRight|![result](https://github.com/azumazuma/android_animation/blob/master/images/Bound_inSideRight.gif)|
 
 ### Door
 |method name|used gif|
 |---|---|
-|topOpen|gif|
-|topClose|gif|
-|bottomOpen|gif|
-|bottomClose|gif|
-|leftOpen|gif|
-|leftClose|gif|
-|rightOpen|gif|
-|rightClose|gif|
+|topOpen|![result](https://github.com/azumazuma/android_animation/blob/master/images/Door_topOpen.gif)|
+|topClose|![result](https://github.com/azumazuma/android_animation/blob/master/images/Door_topClose.gif)|
+|bottomOpen|![result](https://github.com/azumazuma/android_animation/blob/master/images/Door_bottomOpen.gif)|
+|bottomClose|![result](https://github.com/azumazuma/android_animation/blob/master/images/Door_bottomClose.gif)|
+|leftOpen|![result](https://github.com/azumazuma/android_animation/blob/master/images/Door_leftOpen.gif)|
+|leftClose|![result](https://github.com/azumazuma/android_animation/blob/master/images/Door_leftClose.gif)|
+|rightOpen|![result](https://github.com/azumazuma/android_animation/blob/master/images/Door_rightOpen.gif)|
+|rightClose|![result](https://github.com/azumazuma/android_animation/blob/master/images/Door_rightClose.gif)|
 
 ### Extend
 |method name|used gif|
 |---|---|
-|widthSmall|gif|
-|widthBig|gif|
-|heightSmall|gif|
-|heightBig|gif|
-|small|gif|
-|big|gif|
+|widthSmall|![result](https://github.com/azumazuma/android_animation/blob/master/images/Extend_widthSmall.gif)|
+|widthBig|![result](https://github.com/azumazuma/android_animation/blob/master/images/Extend_widthBig.gif)|
+|heightSmall|![result](https://github.com/azumazuma/android_animation/blob/master/images/Extend_heightSmall.gif)|
+|heightBig|![result](https://github.com/azumazuma/android_animation/blob/master/images/Extend_heightBig.gif)|
+|small|![result](https://github.com/azumazuma/android_animation/blob/master/images/Extend_small.gif)|
+|big|![result](https://github.com/azumazuma/android_animation/blob/master/images/Extend_big.gif)|
 
 ### Flash
 |method name|used gif|
 |---|---|
-|week|gif|
-|medium|gif|
-|strength|gif|
+|week|![result](https://github.com/azumazuma/android_animation/blob/master/images/Flash_week.gif)|
+|medium|![result](https://github.com/azumazuma/android_animation/blob/master/images/Flash_medium.gif)|
+|strength|![result](https://github.com/azumazuma/android_animation/blob/master/images/Flash_strength.gif)|
 
 ### Roll
 |method name|used gif|
 |---|---|
-|inSideTop|gif|
-|outSideTop|gif|
-|inSideBottom|gif|
-|outSideBottom|gif|
-|inSideLeft|gif|
-|outSideLeft|gif|
-|inSideRight|gif|
-|outSideRight|gif|
+|inSideTop|![result](https://github.com/azumazuma/android_animation/blob/master/images/Roll_inSideTop.gif)|
+|outSideTop|![result](https://github.com/azumazuma/android_animation/blob/master/images/Roll_outSideTop.gif)|
+|inSideBottom|![result](https://github.com/azumazuma/android_animation/blob/master/images/Roll_inSideBottom.gif)|
+|outSideBottom|![result](https://github.com/azumazuma/android_animation/blob/master/images/Roll_outSideBottom.gif)|
+|inSideLeft|![result](https://github.com/azumazuma/android_animation/blob/master/images/Roll_inSideLeft.gif)|
+|outSideLeft|![result](https://github.com/azumazuma/android_animation/blob/master/images/Roll_outSideLeft.gif)|
+|inSideRight|![result](https://github.com/azumazuma/android_animation/blob/master/images/Roll_inSideRight.gif)|
+|outSideRight|![result](https://github.com/azumazuma/android_animation/blob/master/images/Roll_outSideRight.gif)|
 
 ### Shake
 |method name|used gif|
 |---|---|
-|week|gif|
-|medium|gif|
-|strength|gif|
+|week|![result](https://github.com/azumazuma/android_animation/blob/master/images/Shake_week.gif)|
+|medium|![result](https://github.com/azumazuma/android_animation/blob/master/images/Shake_medium.gif)|
+|strength|![result](https://github.com/azumazuma/android_animation/blob/master/images/Shake_strength.gif)|
 
 ### Slip
 |method name|used gif|
 |---|---|
-|inSideTop|gif|
-|outSideTop|gif|
-|inSideBottom|gif|
-|outSideBottom|gif|
-|inSideLeft|gif|
-|outSideLeft|gif|
-|inSideRight|gif|
-|outSideRight|gif|
+|inSideTop|![result](https://github.com/azumazuma/android_animation/blob/master/images/Slip_inSideTop.gif)|
+|outSideTop|![result](https://github.com/azumazuma/android_animation/blob/master/images/Slip_outSideTop.gif)|
+|inSideBottom|![result](https://github.com/azumazuma/android_animation/blob/master/images/Slip_inSideBottom.gif)|
+|outSideBottom|![result](https://github.com/azumazuma/android_animation/blob/master/images/Slip_outSideBottom.gif)|
+|inSideLeft|![result](https://github.com/azumazuma/android_animation/blob/master/images/Slip_inSideLeft.gif)|
+|outSideLeft|![result](https://github.com/azumazuma/android_animation/blob/master/images/Slip_outSideLeft.gif)|
+|inSideRight|![result](https://github.com/azumazuma/android_animation/blob/master/images/Slip_inSideRight.gif)|
+|outSideRight|![result](https://github.com/azumazuma/android_animation/blob/master/images/Slip_outSideRight.gif)|
 
 ### Snap
 |method name|used gif|
 |---|---|
-|inSideX|gif|
-|outSideX|gif|
-|inSideY|gif|
-|outSideY|gif|
+|inSideX|![result](https://github.com/azumazuma/android_animation/blob/master/images/Snap_inSideX.gif)|
+|outSideX|![result](https://github.com/azumazuma/android_animation/blob/master/images/Snap_outSideX.gif)|
+|inSideY|![result](https://github.com/azumazuma/android_animation/blob/master/images/Snap_inSideY.gif)|
+|outSideY|![result](https://github.com/azumazuma/android_animation/blob/master/images/Snap_outSideY.gif)|
 
 ### Turn
 |method name|used gif|
 |---|---|
-|inSide|gif|
-|outSide|gif|
-|inSideAxisTopLeft|gif|
-|outSideAxisTopLeft|gif|
-|inSideAxisTopRight|gif|
-|outSideAxisTopRight|gif|
-|inSideAxisBottomLeft|gif|
-|outSideAxisBottomLeft|gif|
-|inSideAxisBottomRight|gif|
-|outSideAxisBottomRight|gif|
+|inSide|![result](https://github.com/azumazuma/android_animation/blob/master/images/Turn_inSide.gif)|
+|outSide|![result](https://github.com/azumazuma/android_animation/blob/master/images/Turn_outSide.gif)|
+|inSideAxisTopLeft|![result](https://github.com/azumazuma/android_animation/blob/master/images/Turn_inSideAxisTopLeft.gif)|
+|outSideAxisTopLeft|![result](https://github.com/azumazuma/android_animation/blob/master/images/Turn_outSideAxisTopLeft.gif)|
+|inSideAxisTopRight|![result](https://github.com/azumazuma/android_animation/blob/master/images/Turn_inSideAxisTopRight.gif)|
+|outSideAxisTopRight|![result](https://github.com/azumazuma/android_animation/blob/master/images/Turn_outSideAxisTopRight.gif)|
+|inSideAxisBottomLeft|![result](https://github.com/azumazuma/android_animation/blob/master/images/Turn_inSideAxisBottomLeft.gif)|
+|outSideAxisBottomLeft|![result](https://github.com/azumazuma/android_animation/blob/master/images/Turn_outSideAxisBottomLeft.gif)|
+|inSideAxisBottomRight|![result](https://github.com/azumazuma/android_animation/blob/master/images/Turn_inSideAxisBottomRight.gif)|
+|outSideAxisBottomRight|![result](https://github.com/azumazuma/android_animation/blob/master/images/Turn_outSideAxisBottomRight.gif)|
 
 ### Zoom
 |method name|used gif|
 |---|---|
-|inSide|gif|
-|outSide|gif|
-|inSideTop|gif|
-|outSideTop|gif|
-|inSideBottom|gif|
-|outSideBottom|gif|
-|inSideLeft|gif|
-|outSideLeft|gif|
-|inSideRight|gif|
-|outSideRight|gif|
+|inSide|![result](https://github.com/azumazuma/android_animation/blob/master/images/Zoom_inSide.gif)|
+|outSide|![result](https://github.com/azumazuma/android_animation/blob/master/images/Zoom_outSide.gif)|
+|inSideTop|![result](https://github.com/azumazuma/android_animation/blob/master/images/Zoom_inSideTop.gif)|
+|outSideTop|![result](https://github.com/azumazuma/android_animation/blob/master/images/Zoom_outSideTop.gif)|
+|inSideBottom|![result](https://github.com/azumazuma/android_animation/blob/master/images/Zoom_inSideBottom.gif)|
+|outSideBottom|![result](https://github.com/azumazuma/android_animation/blob/master/images/Zoom_outSideBottom.gif)|
+|inSideLeft|![result](https://github.com/azumazuma/android_animation/blob/master/images/Zoom_inSideLeft.gif)|
+|outSideLeft|![result](https://github.com/azumazuma/android_animation/blob/master/images/Zoom_outSideLeft.gif)|
+|inSideRight|![result](https://github.com/azumazuma/android_animation/blob/master/images/Zoom_inSideRight.gif)|
+|outSideRight|![result](https://github.com/azumazuma/android_animation/blob/master/images/Zoom_outSideRight.gif)|
 
 License
 -------
