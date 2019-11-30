@@ -40,7 +40,7 @@ Easily add customized animations to Android View
 allprojects {
 	repositories {
 		...
- 		maven { url '' }
+ 		maven { url 'http://azumazuma.github.io/android_animation/repository' }
 	}
 }
 ```
@@ -49,7 +49,7 @@ allprojects {
 
 ```groovy
 dependencies {
-	implementation ''
+	implementation 'com.azuma:android_animation:1.0.0'
 }
 ```
 
