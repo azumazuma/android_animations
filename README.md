@@ -54,7 +54,9 @@ dependencies {
 ```
 
 ## Sample
+![result](https://github.com/azumazuma/android_animation/blob/master/images/Sample1.gif)
 
+![result](https://github.com/azumazuma/android_animation/blob/master/images/Sample2.gif)
 
 ## Animation List
 
