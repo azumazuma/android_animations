@@ -7,7 +7,7 @@ android_animation
 
 Easily add customized animations to Android View
 
- * A library with 65 animations customized
+ * A library with 67 animations customized
  * After animation, transitionX, transitionY, pivotX, povotY, rotation automatically return to the original position
  * If the size of the view is not fixed when starting the animation, it will not work
 
